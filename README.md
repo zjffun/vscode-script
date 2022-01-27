@@ -35,8 +35,14 @@ export default ({ vscodeExtra }) => {
 
 ### Run script
 
+<img src="images/run-script.webp" width="700px">
+
 ## Release Notes
 
 ### [TODO]
 
 ### [Unreleased]
+
+### v0.0.1
+
+- Added features run scripts.
