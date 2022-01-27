@@ -48,6 +48,8 @@ suite("Extension", () => {
 
     await writeTextDocument(doc, "1\n2");
 
+    const originalText = doc.getText();
+
     await vscode.commands.executeCommand("editor.action.selectAll");
 
     await vscode.commands.executeCommand(run.runCaseCommandId, {
@@ -58,6 +60,6 @@ suite("Extension", () => {
       ),
     });
 
-    assert.strictEqual(doc.getText(), `["1","2"]`);
+    assert.strictEqual(doc.getText(), JSON.stringify(originalText.split("\n")));
   });
 });
