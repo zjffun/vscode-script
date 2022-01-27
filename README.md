@@ -5,7 +5,7 @@ Create scripts with VS Code extension capabilities.
 ## Install via CLI
 
 ```bash
-code --install-extension zjffun.script
+code --install-extension zjffun.scripts
 ```
 
 ## Usage

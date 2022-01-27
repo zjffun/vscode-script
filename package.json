@@ -1,5 +1,5 @@
 {
-  "name": "script",
+  "name": "scripts",
   "displayName": "Script",
   "description": "Create scripts with VS Code extension capabilities.",
   "keywords": [
@@ -43,8 +43,8 @@
     "test": "node ./out/test/runTest.js",
     "deploy": "vsce publish --yarn",
     "_vscode:pack": "vsce package",
-    "_vscode:install": "ls script-*.vsix | xargs code --install-extension",
-    "_vscode:uninstall": "code --uninstall-extension zjffun.script"
+    "_vscode:install": "ls scripts-*.vsix | xargs code --install-extension",
+    "_vscode:uninstall": "code --uninstall-extension zjffun.scripts"
   },
   "devDependencies": {
     "@types/glob": "^7.2.0",

@@ -7,7 +7,7 @@ import { run } from "../../commands";
 import { writeTextDocument } from "../util";
 
 suite("Extension", () => {
-  const extensionID = "zjffun.script";
+  const extensionID = "zjffun.scripts";
   const extensionShortName = "script";
 
   let extension: vscode.Extension<any> | undefined;
