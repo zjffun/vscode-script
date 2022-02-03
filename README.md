@@ -1,3 +1,5 @@
+> ### You may be looking for a tool to create scripts with VS Code extension capabilities, [Power Tools](https://marketplace.visualstudio.com/items?itemName=egomobile.vscode-powertools) is a better choice.
+
 # Script
 
 Create scripts with VS Code extension capabilities.
